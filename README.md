@@ -23,21 +23,34 @@ Whether you are a researcher exploring model capabilities or a developer deployi
 ## Installation
 
 In the project directory, you can run:
+1. install the front end
+```sh
+npm install
 
-1. `npm start`
+```
+2. Runs the app in the development mode.
 
-Runs the app in the development mode.\
+```sh
+npm start
+
+```
+
+3. install the backend
+```sh
+pip install -r requirements.txt
+python app.py
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-2. `npm test`
+4. `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. `npm run build`
+5. `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -47,7 +60,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. `npm run eject`
+6. `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -62,3 +75,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn LLM Evaluation, check out the following:
+- [LLM Evaluation Guide](https://www.superannotate.com/blog/llm-evaluation-guide)
+- [LLM Evaluation Metrics](https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation)
+- [LLMs as a Judge](https://arize.com/blog-course/llm-evaluation-the-definitive-guide/)

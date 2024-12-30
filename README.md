@@ -2,11 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table Of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Tech Stack](#tech-stack)
+- [Setup](#setup)
+- [Learn More](#learn-more)
+- [Usage](#usage)
+- [Project Structure](#Project-structure)
+- [Environment Variables](#environment-variables)
+- [API Routes](#api-routes)
+## Introduction
+The **LLM Evaluation Platform** is a versatile web-based application designed to streamline the evaluation and comparison of large language models (LLMs). In an era where LLMs are increasingly adopted across industries, selecting the right model for specific tasks requires a systematic and data-driven approach. This platform provides users with a unified interface to test LLMs, analyze their outputs, and visualize their performance through meaningful metrics.
+
+Built with a robust backend powered by Flask and an intuitive frontend leveraging React and TypeScript, the platform enables users to input prompts, retrieve responses from multiple LLMs, and assess their performance side-by-side. By integrating essential metrics such as accuracy, relevancy, and response time, the platform empowers users to make informed decisions based on real data. Additionally, a feature-rich analytics dashboard provides clear and interactive visualizations of aggregated metrics, enabling deeper insights into model performance.
+
+Whether you are a researcher exploring model capabilities or a developer deploying LLMs for business use cases, the LLM Evaluation Platform offers a comprehensive and scalable solution for evaluating LLMs effectively and efficiently.
+
+
+## Installation
 
 In the project directory, you can run:
 
-### `npm start`
+1. `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +32,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+2. `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+3. `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +47,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+4. `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 

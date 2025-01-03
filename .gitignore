@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.env
+*.db
+
+test.py
+connectSQLite.py

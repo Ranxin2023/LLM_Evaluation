@@ -80,3 +80,11 @@ To learn LLM Evaluation, check out the following:
 - [LLM Evaluation Guide](https://www.superannotate.com/blog/llm-evaluation-guide)
 - [LLM Evaluation Metrics](https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation)
 - [LLMs as a Judge](https://arize.com/blog-course/llm-evaluation-the-definitive-guide/)
+
+## Experiment Result
+| Model Name | Precision | F1 Score | Response Time (s) |
+|------------|-----------|----------|-------------------|
+| GPT-4      | 0.83      | 0.83     | 1.210             |
+| GPT-4o-mini| 0.75      | 0.78     | 0.550             |
+| Llama      | 0.55      | 0.65     | 0.430             |
+| Gemma      | 0.50      | 0.85     | 0.300             |

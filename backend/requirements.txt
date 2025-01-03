@@ -1,3 +1,9 @@
+# web api
 flask
 flask-cors 
 flask-sqlalchemy
+#ai modules
+openai
+groq
+# database
+sqlite3

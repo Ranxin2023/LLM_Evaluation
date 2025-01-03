@@ -1,0 +1,25 @@
+
+[
+    {
+        "prompt":"What is the capital of French", 
+        "reference":"The capital of French is Paris",
+        "grader": "exact_match"
+    }
+    , 
+    {
+        "user_message": "Explain photosynthesis.",
+        "expected_output": "Photosynthesis is the process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water.",
+        "grader": "partial_match"
+    },
+
+    {
+        "user_message": "Define an organic compound.",
+        "expected_output": "Organic compound is of a large class of chemical compounds in which one or more carbon atoms are covalently paired with other elements atoms, most commonly hydrogen, oxygen, or nitrogen.",
+        "grader": "partial_match"
+    },
+    {
+        "user_message": "Imagine you are an expert in environmental science. Analyze the following situation: A city is facing increasing air pollution levels due to rapid industrialization. Suggest a detailed plan for reducing pollution while maintaining industrial productivity. Consider economic, technological, and policy-driven solutions.",
+        "expected_output": "As an environmental science expert, addressing increasing air pollution while maintaining industrial productivity requires:\n\n1. Economic Solutions:\n   - Incentives for green practices: Provide tax rebates and subsidies to industries adopting clean technologies.\n   - Offer low-interest loans for investments in pollution control equipment.\n   - Pollution pricing: Implement a carbon tax to encourage industries to reduce emissions.\n   - Introduce tradable emissions permits, creating a market-driven approach to pollution control.\n\n2. Technological Solutions:\n   - Adoption of cleaner technologies: Upgrade machinery to reduce emissions and improve energy efficiency.\n   - Renewable energy integration: Encourage the use of renewable energy sources like solar, wind, and hydroelectric power to reduce dependence on fossil fuels.\n\n3. Policy-Driven Solutions:\n   - Regulatory framework: Establish strict emission standards and enforce regular inspections to ensure compliance.\n   - Public awareness and collaboration: Educate citizens and industries on sustainable practices and involve stakeholders in decision-making processes.",
+        "grader": "logical_equivalence"
+    }
+]

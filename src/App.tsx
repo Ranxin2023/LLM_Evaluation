@@ -83,6 +83,7 @@ const App: React.FC = () => {
       padding: "20px",
     }}>
       <h1 style={{color: '#44ff22', fontWeight:'bold', fontSize:40}}>LLM Evaluation Platform</h1>
+      <text style={{margin:10, fontSize:30, color:"#CCBB22"}}>prompt</text>
       <textarea
         rows={5}
         cols={50}
@@ -98,7 +99,8 @@ const App: React.FC = () => {
           border: "1px solid #ccc",
           resize: "none",
         }}
-      />
+        />
+        <text style={{margin:10, fontSize:30, color:"#CCBB22"}}>reference</text>
        <textarea
         rows={5}
         cols={50}

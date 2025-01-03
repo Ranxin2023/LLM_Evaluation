@@ -22,7 +22,7 @@ Whether you are a researcher exploring model capabilities or a developer deployi
 ## Features
 ### Compare multiple LLMs on standardized prompts.
 
-### Evaluate models based on:
+### Evaluate models based on criteria:
 
 - **Precision**:
     Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. It measures how many of the model's positive predictions were actually correct. High precision indicates that the model's positive predictions are accurate but does not consider missed positive cases (false negatives).
@@ -42,13 +42,14 @@ F1 Score is the harmonic mean of precision and recall. It provides a balanced me
 Formula:
 **F1 Score = 2 * (Precision * Recall) / (Precision + Recall)**
 
-- Perplexity:
+- **Perplexity**:
 Perplexity is a measure of how well a probabilistic model predicts a sample. For language models, it evaluates how well the model predicts the likelihood of a sequence of words. Lower perplexity indicates a better-performing model, as it is more confident in its predictions.
 
 Formula:
 **Perplexity = exp(-Σ log(probabilities) / N)**
 Where **N** is the total number of words in the sequence.
-- Response Time: Response time measures how long the model takes to generate a response. It is an important factor in applications where speed and real-time interaction are critical. A shorter response time indicates better performance in terms of efficiency.
+- **Response Time**: 
+Response time measures how long the model takes to generate a response. It is an important factor in applications where speed and real-time interaction are critical. A shorter response time indicates better performance in terms of efficiency.
 
 ### Visualize the results in a user-friendly dashboard.
 
